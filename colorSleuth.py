@@ -1,12 +1,12 @@
 """
 This python script analyzes an image and returns a list of hex codes of all the unique colors in the image.
 
-Steps of the process:
+Steps:
 Step 1: load the image (using PIL)
 
 Step 2: store the image in a 3 dimensional numpy array (height, width, color_channel)
 
-Step 3: maintain a list of hashes to check for duplicate hex codes
+Step 3: check for duplicate hex codes
 
 Step 4: print the list of unique hex codes
 
